@@ -10,7 +10,7 @@
 // import 'package:my_app/MapPg/models/auto_complete_result.dart';
 
 // class MapServices {
-//   final String key = 'AIzaSyCs5k7_qgmww1kwnkoL8UnPD8HZdcjR2l4';
+//   final String key = 'APIKEY';
 //   final String types = 'geocode';
 
 //   Future<List<AutoCompleteResult>> searchPlaces(String searchInput) async {
