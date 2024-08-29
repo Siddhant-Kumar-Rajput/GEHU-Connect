@@ -55,8 +55,8 @@ class _ConvertScreenState extends State<ConvertScreen> {
 
     const apiKey = 'hVWGpy2mhLogrqbG';
     final apiUrl = widget.conversionType == 'pdf_to_word'
-        ? 'https://v2.convertapi.com/convert/pdf/to/docx?Secret=hVWGpy2mhLogrqbG'
-        : 'https://v2.convertapi.com/convert/docx/to/pdf?Secret=hVWGpy2mhLogrqbG';
+        ? 'https://v2.convertapi.com/convert/pdf/to/docx?Secret=APIKEY'
+        : 'https://v2.convertapi.com/convert/docx/to/pdf?Secret=APIKEY';
 
     var request = http.MultipartRequest('POST', Uri.parse(apiUrl));
     request.files.add(await http.MultipartFile.fromPath('file', widget.file.path));
